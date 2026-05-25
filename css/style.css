@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Golos Text';
-    src: url('./fonts/GolosText-Regular.woff2') format('woff2');
+    src: url('../fonts/GolosText-Regular.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Golos Text';
-    src: url('./fonts/GolosText-Medium.woff2') format('woff2');
+    src: url('../fonts/GolosText-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Golos Text';
-    src: url('./fonts/GolosText-SemiBold.woff2') format('woff2');
+    src: url('../fonts/GolosText-SemiBold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'Golos';
-    src: url('./fonts/GolosText-Bold.woff2') format('.woff2');
+    src: url('../fonts/GolosText-Bold.woff2') format('.woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -32,7 +32,7 @@
 
 @font-face {
     font-family: 'Merriweather';
-    src: url('./fonts/Merriweather48pt-Regular.woff2') format('woff2');
+    src: url('../fonts/Merriweather48pt-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -40,7 +40,7 @@
 
 @font-face {
     font-family: 'Merriweather';
-    src: url('./fonts/Merriweather48pt-Bold.woff2') format('woff2');
+    src: url('../fonts/Merriweather48pt-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(./image/header-1920-2.jpg);
+    background-image: url(../image/header-1920-2.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: -1004px;
@@ -637,7 +637,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: row;
     gap: 16px;
-    background-image: url(./image/bg-texture_1920.jpg);
+    background-image: url(../image/bg-texture_1920.jpg);
     padding: 20px;
     font-size: 20px;
     line-height: 1.2;
@@ -693,7 +693,7 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
     border-radius: 50%;
     background-color: var(--color-dark);
-    background-image: url(./image/arrow.png);
+    background-image: url(../image/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -986,7 +986,7 @@ h1, h2, h3, h4, h5, h6 {
         display: flex;
         flex-direction: column;
         height: clamp(180px, calc(511.76px - 41.18vw), 300px);
-        background-image: url(./image/bg-texture_1920.jpg);
+        background-image: url(../image/bg-texture_1920.jpg);
     }
 
     .stage-stages .stage-slider {
@@ -1040,7 +1040,7 @@ h1, h2, h3, h4, h5, h6 {
         width: var(--max-width-btn);
     }
     .header__content {
-        background-image: url(./image/header-375.jpg);
+        background-image: url(../image/header-375.jpg);
         background-size: cover;
     }
 
